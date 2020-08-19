@@ -1,5 +1,30 @@
 <?php
-	//update this
+	//uncomment the host/protocol line and fill in correct username and password
+	#######
+	# localhost pop3 with and without ssl
+	# $hostname="{localhost:995/pop3/ssl/novalidate-cert}";
+	# $hostname="{localhost:110/pop3/notls}";
+
+	# localhost imap with and without ssl
+	# $hostname="{localhost:993/imap/ssl/novalidate-cert}";
+	# $hostname="{localhost:143/imap/notls}";
+	# $user="localuser";
+
+	# localhost nntp with and without ssl
+	# you have to specify an existing group, control.cancel should exist
+	# $hostname="{localhost:563/nntp/ssl/novalidate-cert}control.cancel";
+	# $hostname="{localhost:119/nntp/notls}control.cancel";
+
+	######
+	# web.de pop3 without ssl
+	# $hostname="{pop3.web.de:110/pop3/notls}";
+	# $user="kay.marquardt@web.de";
+
+	#########
+	# google with pop3 or imap
+	# $hostname="{pop.gmail.com:995/pop3/ssl/novalidate-cert}";
+	# $hostname="{imap.gmail.com:993/imap/ssl/novalidate-cert}";
+	# $user="username@gmail.com";
 	$hostname = '{mail.yourserver.org:143/notls}';
 	$username = 'catch-all@yourserver.org';
 	$password = 'yourpassword';
